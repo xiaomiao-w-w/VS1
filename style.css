@@ -1,0 +1,168 @@
+* {
+    margin:0 auto;
+    padding: 0;
+}
+body{
+    background-color: #fff;
+}
+li{
+    list-style: none;
+}
+.w{
+    
+    margin: auto;
+}
+.bottom{
+    width: 1920px;
+    height: 815px;
+    background-image: url(images/background1_03.jpg);
+}
+.header{
+    height: 100px;
+    width: 1200px;
+    margin: auto;
+}
+.logo{
+    float:left;
+    margin-left: 4px;
+    margin-right:4px;
+}
+.nav{
+    float:left;
+}
+.nav ul li{
+    float: left;
+}
+.nav ul li a{
+    display:block;
+    height: 97px;
+    line-height: 97px;
+    padding: 0 50px;
+    font-size:22px;
+    color:#fff;
+    text-decoration:none;
+}
+.banner1{
+    height: 31px;
+    width: 1920px;
+    background-color: #fff;
+}
+.banner2{
+    height: 450px;
+    width: 1920px;
+    background-color:#eae7e8 ;  
+}
+.banner2a{
+    width: 1155px;
+    height: 511px;
+    background-color: #fff;
+    position:relative;
+    top: 36px;
+    left: 1px;
+    border: 1px solid black;
+    
+    outline-color: cfcfcf;
+}
+.banner2a p1{
+    position: absolute;
+    left: 500px;
+    top: 75px;
+    color: black;
+    font-size: 55px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.banner2a p2{
+    position: absolute;
+    left: 490px;
+    top: 185px;
+    color: black
+    font-size 20px;
+    font-family:宋体;
+    margin: 30px 65px 0 0;
+    line-height: 30px;
+    letter-spacing: 5px;
+}
+.side{
+    position: relative;
+    left: 500px;
+    bottom: 130px;
+    margin: auto;
+}
+.part3{
+    width: 1920px;
+    height: 830px;
+    background-color: #fff;
+    
+}
+.part3-1{
+    position: relative;
+    top: 150px;
+    left: 30px
+}
+.banner4-1{
+    height: 390px;
+    width: 1920px;
+    background-color: #dad8d9;
+}
+.product{
+    position: relative;
+    bottom: 0px;
+    left: 385px;
+}
+.banner4-2{
+    height: 350px;
+    width: 1920px;
+    background-color: #6f6d6d;
+}
+.think{
+    position: relative;
+    bottom: 190px;
+    left: 546px;
+}
+.part5{
+    height: 900px;
+    width: 1920px;
+    background-color: #fff;
+    position: relative;
+    top: 100px;
+    
+}
+.part6bg{
+    height: 353px;
+    width: 1920px;
+    position: relative;
+    top: 100px;
+}
+.part6 p1{
+    position: absolute;
+    left: 947px;
+    top: 120px;
+    color: black;
+    font-size: 19px;
+    font-family:"Britannic Bold";
+    margin:0 550px 0 20px;
+}
+.part6 p2{
+    position: absolute;
+    left: 947px;
+    top: 250px;
+    color: black;
+    font-size: 19px;
+    font-family: ;
+    margin:0 550px 0 20px;
+}
+.part6 p3{
+    position: absolute;
+    left: 947px;
+    top: 380px;
+    color: black;
+    font-size: 19px;
+    font-family:"Britannic Bold";
+    margin:0 550px 0 20px;
+}
+.end{
+    height: 1011px;
+    width: 1920px;
+    position: relative;
+    top: 400px
+}
