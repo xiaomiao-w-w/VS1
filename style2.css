@@ -1,0 +1,235 @@
+* {
+    margin:0 auto;
+    padding: 0;
+}
+.a{
+    width: 640px;
+}
+.tip p{
+    
+    font-family: 宋体;
+    font-size: medium;
+}
+.backgroundA{
+    background-color:rgb(254, 254, 254);
+    width: 640px;
+    height: 361px;
+    border-radius: 5px;
+}
+.frame{
+    margin-top: 13px;
+    margin-left: 16px;
+    background-color: white;
+    width: 602px;
+    height: 329px;
+    border: 3px solid;
+    box-shadow: 0 0 22px 2px #cde8f5;
+    border-radius: 10px;
+    border-color: #cde8f5;
+}
+.logo{
+    float: left;
+    position: relative;
+    margin-top: 17px;
+    margin-left: 17px;
+    margin-right: 10px;
+}
+.part1 p{
+    float: left;
+    line-height: 55px;
+}
+.user{
+    position: absolute;
+    margin-top: 17px;
+    margin-left: 560px;
+}
+.background1{
+    overflow: hidden;
+    display: flex;
+    width: 505px;
+    height: 31px;
+    background-color: #f7fdff;
+    border-radius: 10px;
+    
+}
+.span{
+    background-color:#f7fdff;
+    font-size: 10px;
+    align-items: center;
+    line-height: 3;
+}
+.span1{
+    font-size: 10px;
+    line-height: 3;
+    color: #68d5dd;
+    
+}
+.part3 p1{
+    color: #578aef;
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 26px;
+}
+.friend{
+    transform: scale(0.08);
+    position: absolute;
+    margin-top: -50px;
+    margin-left: 440px ;
+}
+.video{
+    transform: scale(0.08);
+    position: absolute;
+    margin-top: -50px;
+    margin-left: 470px;
+}
+.side{
+    position: absolute;
+    margin-left: 26px;
+}
+.people{
+    overflow: hidden;
+    width: 452px;
+    height: 143px;
+    background-color: white;
+    margin-top: 70px;
+    margin-right: 64px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: 0px 0px 0px 0px #999
+}
+.per1{
+    height: 43px;
+    width: 450px;
+    background-color: white;
+    background-image: linear-gradient(to right, #e6f9fc,white);
+    display: flex;
+    flex-direction: row;
+    box-shadow: 0px 0 2px 0px #999; 
+    border-radius: 10px;  
+}
+.per2{
+    height: 43px;
+    width: 450px;
+    background-color: white;
+    background-image: linear-gradient(to right, #e6f9fc,white);
+    display: flex;
+    flex-direction: row;
+    box-shadow: 0px 0 2px 0px #999;
+    border-radius: 10px;
+}
+.per3{
+    height: 43px;
+    width: 450px;
+    background-color: white;
+    background-image: linear-gradient(to right, #e6f9fc,white);
+    display: flex;
+    flex-direction: row;
+    box-shadow: 0px 0px 2px 0px #999;
+    border-radius: 10px;
+}
+.photo1{
+    margin-top: 10px;
+    margin-left: 17px;
+}
+.photo2{
+    margin-top: 10px;
+    margin-left: 17px;
+}
+.photo3{
+    margin-top: 10px;
+    margin-left: 17px;
+}
+.per1 p1{
+    margin-top: 16px;
+    margin-left: -10px;
+    color: #060606;
+    font-size:8px;
+}
+.per1 p2{
+    margin-top: 16px;
+    margin-left: 100px;
+    color: #060606;
+    font-size:8px;
+}
+.per1 p3{
+    margin-top: 16px;
+    margin-right: 0px;
+    color: #0a0a0a;
+    font-size:8px;
+}
+.per1 p4{
+    margin-top: 16px;
+    margin-right: 20px;
+    color: #030303;
+    font-size:8px;
+}
+.per2 p1{
+    margin-top: 16px;
+    margin-left: -10px;
+    color: #0a0a0a;
+    font-size:8px;
+}
+.per2 p2{
+    margin-top: 16px;
+    margin-left: 100px;
+    color: #0a0a0a;
+    font-size:8px;
+}
+.per2 p3{
+    margin-top: 16px;
+    margin-right: 0px;
+    color: #090909;
+    font-size:8px;
+}
+.per2 p4{
+    margin-top: 16px;
+    margin-right: 20px;
+    color: #111111;
+    font-size:8px;
+}
+.per3 p1{
+    margin-top: 16px;
+    margin-left: -10px;
+    color: #0f1010;
+    font-size:8px;
+}
+.per3 p2{
+    margin-top: 16px;
+    margin-left: 100px;
+    color: #060606;
+    font-size:8px;
+}
+.per3 p3{
+    margin-top: 16px;
+    margin-right: 0px;
+    color: #0b0b0b;
+    font-size:8px;
+}
+.per3 p4{
+    margin-top: 16px;
+    margin-right: 20px;
+    color: #030303;
+    font-size:8px;
+}
+.goto{  
+    width: 30px;
+    height: 15px;
+    background-color: #39c8d2;
+    position: absolute;
+    margin-top: -15px;
+    margin-left: 545px;
+    border-radius: 4px;
+}
+.goto p{
+    font-size: 8px;
+    margin-top: 2px;
+    margin-left: 3px;
+}
+.part5{
+    width: 600px;
+    height: 30px;
+    background-image: url("https://g-g-bond.oss-cn-beijing.aliyuncs.com/img/%E8%8A%B1%E7%9B%86%E9%87%8C%E8%8D%B7%E8%8A%B1%20(2).svg");
+}
+
+      
