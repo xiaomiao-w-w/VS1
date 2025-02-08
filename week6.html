@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <title>猫猫</title>
+</head>
+<body>
+    <div class="picture" style="text-align: center; margin-top: 20px;">
+        <h2>图片加载中...</h2>
+    </div>
+    <script>
+        axios({
+            method: 'get',
+            url: 'https://api.thecatapi.com/v1/images/search?limit=1', 
+            responseType: 'json' 
+        })
+        .then(function (response) {
+            const imageUrl = response.data[0].url;
+            const img = document.createElement('img');
+            img.src = imageUrl;
+            document.querySelector('.picture').innerHTML = ''; 
+            document.querySelector('.picture').appendChild(img);
+        })
+        .catch(function (error) {
+            console.error('获取图片失败：', error);
+            document.querySelector('.picture').innerHTML = '<h2>加载失败</h2>';
+        });
+    </script>
+</body>
+</html>
